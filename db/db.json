@@ -1,0 +1,90 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "email": "tuan@gmail.com",
+      "password": "$2a$10$b/L5Nh5c1PrZ19If7xc/A.O7864Sc8XzEexEJT1dB4RFQaOr.p4Sy",
+      "role": "admin",
+      "name": "Thanh Tuan",
+      "gender": "male",
+      "createdAt": 1636114799516,
+      "updatedAt": 1636114799516
+    },
+    {
+      "email": "ngocdungsss81@gmail.com",
+      "password": "$2a$10$G00.EG9Q8MKXmP9u2MqUuOXkydDr8UWzZ8b98RekvyNI9BMsduBJi",
+      "name": "Cao Ngọc Dũng",
+      "role": "admin",
+      "gender": "male",
+      "createdAt": 1639386017347,
+      "updatedAt": 1639386017348,
+      "id": 2
+    },
+    {
+      "email": "hoangthuylinh04@gmail.com",
+      "password": "$2a$10$tUuMLwMUTKOzeOnFbXVljeweq.Lug/M6KoM6.fmU87BfDpesPYPlG",
+      "name": "Cao Ngọc Dũng",
+      "role": "user",
+      "gender": "female",
+      "createdAt": 1639386094075,
+      "updatedAt": 1639386094075,
+      "id": 3
+    }
+  ],
+  "products": [
+    {
+      "name": "Áo sơ mi Asos ASM08",
+      "categoryId": 3,
+      "price": 99999,
+      "image": "https://bizweb.dktcdn.net/thumb/1024x1024/100/091/100/products/7.jpg?v=1467428885147",
+      "description": "Áo sơ mi Asos ASM08 chất vản đẹp và mịn màng",
+      "information": "Phong cách thời trang nam giới nói riêng luôn có sự thay đổi theo thời gian. Tuy nhiên, những trang phục thuộc diện thì vẫn có được chỗ đứng cho mình trong lòng công chúng. Món đồ mà chúng tôi đang muốn nói đến ở đây là áo sơmi trắng. Cho dù phong cách ăn mặc của các chàng trai là đơn giản hay phức tạp, lịch lãm hay bụi bặm thì áo phông trắng luôn là món đồ mà bạn không thể bỏ qua.",
+      "isNew": true,
+      "createdAt": 1639735525729,
+      "updatedAt": 1639736639546,
+      "id": 1
+    },
+    {
+      "name": "Áo phông vitage trắng",
+      "categoryId": 2,
+      "price": 190000,
+      "image": "https://bizweb.dktcdn.net/thumb/1024x1024/100/091/100/products/10-7d1ddb13-5ce9-4c18-b8f0-6ad8a1bb47d1.jpg?v=1467428984973",
+      "description": "Áo phông mới nhất năm 2021",
+      "information": "Phong cách thời trang nam giới nói riêng luôn có sự thay đổi theo thời gian. Tuy nhiên, những trang phục thuộc diện thì vẫn có được chỗ đứng cho mình trong lòng công chúng. Món đồ mà chúng tôi đang muốn nói đến ở đây là áo sơmi trắng. Cho dù phong cách ăn mặc của các chàng trai là đơn giản hay phức tạp, lịch lãm hay bụi bặm thì áo phông trắng luôn là món đồ mà bạn không thể bỏ qua.",
+      "isNew": true,
+      "createdAt": 1639735572153,
+      "updatedAt": 1639736615513,
+      "id": 2
+    },
+    {
+      "name": "Áo phông vitage trắng",
+      "categoryId": 1,
+      "price": 89900,
+      "image": "https://bizweb.dktcdn.net/thumb/1024x1024/100/091/100/products/1.jpg?v=1467428517767",
+      "description": "Hàng đẹp nhất năm nay 2021",
+      "information": "Phong cách thời trang nam giới nói riêng luôn có sự thay đổi theo thời gian. Tuy nhiên, những trang phục thuộc diện thì vẫn có được chỗ đứng cho mình trong lòng công chúng. Món đồ mà chúng tôi đang muốn nói đến ở đây là áo sơmi trắng. Cho dù phong cách ăn mặc của các chàng trai là đơn giản hay phức tạp, lịch lãm hay bụi bặm thì áo phông trắng luôn là món đồ mà bạn không thể bỏ qua.",
+      "isNew": false,
+      "createdAt": 1639735612404,
+      "updatedAt": 1639735612404,
+      "id": 3
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Ao thun"
+    },
+    {
+      "id": 2,
+      "name": "Áo phông"
+    },
+    {
+      "id": 3,
+      "name": "Áo sơ mi"
+    },
+    {
+      "id": 4,
+      "name": "Áo cộc tay"
+    }
+  ]
+}

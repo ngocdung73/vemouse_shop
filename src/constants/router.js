@@ -1,0 +1,30 @@
+export const ROUTER = {
+  DEFAULT: {
+    HOME: '/',
+    INTRUDUCE: '/gioi-thieu',
+    PRODUCT_LIST: '/san-pham',
+    PRODUCT_DETAIL: '/san-pham/:id',
+    NEWS: '/tin-tuc',
+    CONTACT: '/lien-he',
+    INSTRUCT: '/huong-dan',
+    ORDER: '/don-hang',
+    CART: '/gio-hang',
+    TEL: '/tel',
+  },
+  USER: {
+    HOME: '/user/',
+    PRODUCT_LIST: '/user/products',
+    PRODUCT_DETAIL: '/user/product/:id',
+    TO_DO_LIST_ANTD: '/user/todolist/antd',
+    TO_DO_LIST_HOOK: '/user/todolist/hook',
+  },
+  ADMIN: {
+    DASHBOARD: '/admin/dashboard',
+    PRODUCT_LIST: '/admin/products',
+    CREATE_PRODUCT: '/admin/products/create',
+    UPDATE_PRODUCT: '/admin/products/:id/update',
+  },
+  LOGIN: '/login',
+  REGISTER: '/register',
+  NOT_FOUND: '/not-found',
+}

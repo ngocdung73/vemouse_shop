@@ -1,0 +1,165 @@
+.form_login p, .form_login span, .form_login label{
+  font-size: 16px;
+  color: #898989;
+  margin-bottom: 0.5rem;
+}
+/* Form Login */
+.loginForm .title, .registerForm .title{
+  border-bottom: 1px solid #e1e1e1;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+.loginForm .title ul, .registerForm .title ul{
+  display: flex;
+}
+
+.loginForm .title ul .home, .registerForm .title ul .home{
+  color: #252525;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.loginForm .title ul .home:hover, .registerForm .title ul .home:hover{
+  color: #66a182;
+}
+
+.loginForm .title ul .item, .registerForm .title ul .item{
+  color: #66a182;
+  font-weight: 400;
+  padding-left: 20px;
+  font-size: 14px;
+}
+
+.content-login h5, .registerForm h5{
+  margin-bottom: 30px;
+}
+
+.form_login{
+  display: flex;
+}
+
+.form_login .content_left{
+  flex: 50%;
+  width: 50%;
+}
+
+.form_login .content_left input{
+  width: 90%;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  padding: 8px 12px;
+}
+
+.content_left .forgot-password:hover{
+  cursor: pointer;
+  color: #66a182;
+}
+
+.content_left input.submitLogin{
+  height: 42px;
+  width: 22%;
+  padding: 0 25px;
+  background: #66a182;
+  color: #fff;
+  font-size: 12px;
+  border: 1px solid transparent;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.loginForm .submitLogin:hover{
+  background: none;
+  color: #66a182;
+  border: 1px solid #66a182;
+}
+
+.form_login .content_right{
+  flex: 50%;
+  width: 50%;
+}
+
+.loginForm .submitRegister{
+  height: 42px;
+  width: 22%;
+  padding: 0 25px;
+  background: #4a4f59;
+  font-size: 12px;
+  color: #fff;
+  border: 1px solid transparent;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.loginForm .submitRegister:hover{
+  background: #66a182;
+}
+
+/* Form Register */
+.form-group{
+  display: flex;
+  flex-direction: column;
+  width: 48%;
+}
+
+.form-label{
+  color: #898989;
+  font-size: 16px;
+}
+
+.form-group input{
+  margin: 10px 0 20px 0;
+  padding: 10px;
+  border: 1px solid #848591;
+}
+
+
+.form-group input[type=checkbox]{
+  margin-right: 20px;
+}
+
+span.required{
+  color: red;
+  font-style: oblique;
+  font-size: 14px;
+}
+
+.gender .form-label{
+  margin-right: 20px;
+}
+
+.form-check{
+  margin-top: 50px;
+}
+
+.registerForm .submitLogin{
+  height: 42px;
+  padding: 0 25px;
+  margin-left: 20px;
+  background: #66a182;
+  color: #fff;
+  font-size: 12px;
+  border: 1px solid transparent;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.registerForm .submitLogin:hover{
+  background: none;
+  color: #66a182;
+  border: 1px solid #66a182;
+}
+
+.registerForm .submitRegister{
+  height: 42px;
+  padding: 0 25px;
+  background: #4a4f59;
+  font-size: 12px;
+  color: #fff;
+  border: 1px solid transparent;
+  margin-top: 20px;
+}
+
+.registerForm .submitRegister:hover{
+  background: #66a182;
+}
